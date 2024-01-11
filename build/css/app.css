@@ -11535,6 +11535,12 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
 }
 
+.separar-botones {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .testimoniales h2 {
   color: #313c4e;
   display: inline-block;
@@ -11675,6 +11681,11 @@ textarea.form-control-lg {
 .navegacion__row {
   padding-top: 5rem;
   padding-bottom: 5rem;
+}
+.navegacion__barraSuper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* Estilos para centrar un solo video */

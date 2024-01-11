@@ -16,7 +16,8 @@
     <header class="navegacion">
         <div class="navegacion__container">
             <div class="navegacion__row">
-                <h2>Bloque 1</h2>
+                <h2>Seccion 1</h2>
+                <h2>Prácticas de seguridad (planear)</h2>
             </div>
         </div>
     </header>
@@ -24,13 +25,50 @@
     <section class="container-xl py-4">
         <div class="row align-items-center justify-content-center ">
             <div class="col-md-8 border shadow p-3">
-                <form action="" id="validar-correo">
+                <form action="" id="validarDireccionIp">
                     <div class="mb-3">
-                        <label for="email" class="form-label">Ingresa tu correo:</label>
-                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        <h5 class="section">Almacenamiento</h5>
+                        <label for="direccionIp" class="form-label">Ahora que ya vimos como clasificar cuando la información debe ser compartida con los empleados y los clientes. Elige la la opción que consideres correcta, según tu criterio para que deba ser compartida de manera pública o si debe mantenerse privada. Considera si la opción que elijas va afectar negativamente a la empresa:</label>
+                        <hr>
+                        <div class="d-flex mb-2 align-items-center justify-content-between">
+                            <label class="me-3" for="almacenamiento_1">Datos sobre productos o precios ofrecidos</label>
+                            <select name="almacenamiento_1" id="validarAlmacenamiento_1">
+                                <option value="1">Pública</option>
+                                <option value="0">Privada</option>
+                            </select>
+                        </div>
+                        <div class="d-flex mb-2 align-items-center justify-content-between">
+                            <label class="me-3" for="almacenamiento_2">Proceso de desarrollo del producto</label>
+                            <select name="almacenamiento_2" id="validarAlmacenamiento_2">
+                                <option value="0">Pública</option>
+                                <option value="1">Privada</option>
+                            </select>
+                        </div>
+                        <div class="d-flex mb-2 align-items-center justify-content-between">
+                            <label class="me-3" for="almacenamiento_3">Información de los empleados y los clientes</label>
+                            <select name="almacenamiento_3" id="validarAlmacenamiento_3">
+                                <option value="0">Pública</option>
+                                <option value="1">Privada</option>
+                            </select>
+                        </div>
+                        <div class="d-flex mb-2 align-items-center justify-content-between">
+                            <label class="me-3" for="almacenamiento_4">Contratos con provedores y socios comerciales</label>
+                            <select name="almacenamiento_4" id="validarAlmacenamiento_4">
+                                <option value="0">Pública</option>
+                                <option value="1">Privada</option>
+                            </select>
+                        </div>
+                        <div class="d-flex mb-2 align-items-center justify-content-between">
+                            <label class="me-3" for="almacenamiento_5">Misiones y valores</label>
+                            <select name="almacenamiento_5" id="validarAlmacenamiento_5">
+                                <option value="1">Pública</option>
+                                <option value="0">Privada</option>
+                            </select>
+                        </div>
                     </div>
-                    <div class="">
-                        <button id="confirmar" type="button" class="btn btn-primary mb-3 p-1">Confirmar</button>
+                    <div class="separar-botones">
+                        <button id="verificarAlmacen" type="button" class="btn btn-primary mb-3 p-1">Comprobar</button>
+                        
                     </div>
                 </form>
             </div>
